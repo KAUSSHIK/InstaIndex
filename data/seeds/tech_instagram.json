@@ -1,0 +1,23 @@
+{
+  "_comment": [
+    "STARTING POINT -- VERIFY BEFORE USE. See tech_x.json for the full caveat.",
+    "",
+    "This list is deliberately short. Instagram's tech/science creator scene is",
+    "more visual (physics demos, engineering builds, data-viz, maker content)",
+    "and less follow-graph-legible than X's, and -- more importantly -- the",
+    "follow graph is not obtainable through Instagram's official API at all.",
+    "See docs/DATA_COLLECTION.md before planning any Instagram work."
+  ],
+  "topic": "tech / ai / computing / math / science",
+  "platform": "instagram",
+  "seeds": [
+    { "handle": "3blue1brown", "weight": 1.5 },
+    { "handle": "veritasium" },
+    { "handle": "smartereveryday" },
+    { "handle": "physicsfun",   "weight": 1.2 },
+    { "handle": "quantamagazine" },
+    { "handle": "nasa" },
+    { "handle": "mitpics" },
+    { "handle": "sciencemagazine" }
+  ]
+}

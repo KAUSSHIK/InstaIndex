@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "instaindex"
+version = "0.1.0"
+description = "Topic-sensitive PageRank over a social follow graph: rank creators by who follows them, not how many"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+# No runtime dependencies: the power iteration is pure Python and sparse.
+dependencies = []
+
+[project.scripts]
+instaindex = "instaindex.cli:main"
+
+[tool.setuptools]
+packages = ["instaindex"]
